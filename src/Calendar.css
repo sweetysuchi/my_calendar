@@ -1,0 +1,41 @@
+.calendar {
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-row {
+    display: flex;
+  }
+  
+  .calendar-header {
+    flex: 1;
+    padding: 5px;
+    background-color: #ddd;
+    text-align: center;
+  }
+  
+  .calendar-cell {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .current-month {
+    color: black;
+  }
+  
+  .other-month {
+    color: #ccc;
+  }
+  
+  .highlighted {
+    background-color: #aaf;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
